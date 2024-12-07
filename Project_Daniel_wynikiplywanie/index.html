@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOPOT SP 7 rocznik 2014</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>SOPOT SP 7 rocznik 2014</h1>
+
+    <!-- Przełącznik plików -->
+    <div class="file-selector">
+        <label for="file-select">Wybierz konkurencję:</label>
+        <select id="file-select" onchange="changeFile()">
+            <option value="50m_dowolnym.json">50m Dowolnym</option>
+            <option value="50m_grzbietem.json">50m Grzbietem</option>
+            <option value="50m_klasycznym.json">50m Klasycznym</option>
+            <option value="50m_motylkiem.json">50m Motylkiem</option>
+            <option value="100m_zmiennym.json">100m Zmiennym</option>
+        </select>
+    </div>
+
+    <!-- Przełącznik widoków -->
+    <div class="view-selector">
+        <label for="view-select">Wybierz widok:</label>
+        <select id="view-select" onchange="changeView()">
+            <option value="A">Widok A</option>
+            <option value="B">Widok B</option>
+            <option value="C">Widok C</option>
+            <option value="D">Widok D</option>
+            <option value="E">Widok E</option>
+            <option value="F">Widok F</option>
+            <option value="G">Widok G</option>
+            <option value="H">Widok H</option>
+        </select>
+    </div>
+
+    <!-- Przełącznik zawodników -->
+    <div class="name-filter">
+        <label for="name-select">Wybór zawodnika:</label>
+        <select id="name-select" onchange="filterByName()">
+            <option value="all">Wszyscy</option> <!-- Domyślna opcja -->
+        </select>
+    </div>
+
+
+    <table id="results-table">
+
+        <thead>
+            <tr>
+                <th>
+                    Nazwisko Imię
+                    <button onclick="sortTable('name')">
+                        Sort <span id="name-sort"></span>
+                    </button>
+                </th>
+                <th>
+                    Data
+                    <button onclick="sortTable('date')">
+                        Sort <span id="date-sort"></span>
+                    </button>
+                </th>
+                <th>
+                    Czas
+                    <button onclick="sortTable('time')">
+                        Sort <span id="time-sort"></span>
+                    </button>
+                </th>
+                <th>
+                    Punkty FINA
+                    <button onclick="sortTable('pts')">
+                        Sort <span id="pts-sort"></span>
+                    </button>
+                </th>
+                <th>
+                    Miejsce na zawodach
+                    <button onclick="sortTable('place')">
+                        Sort <span id="place-sort"></span>
+                    </button>
+                </th>
+
+                <th>
+                    Medale
+                </th>
+                <th>
+                    PB
+                </th>
+
+
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <!-- Dane będą załadowane dynamicznie -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
