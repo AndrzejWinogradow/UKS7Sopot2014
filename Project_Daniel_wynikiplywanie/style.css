@@ -74,6 +74,57 @@ td.pb-cell {
     cursor: pointer;
 }
 
+/* Styl dla button (pdf) */
+/*
+.button {
+  background-color: #008CBA;
+  color: white;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #008CBA}
+
+.button:active {
+  background-color: #008CBA;
+  box-shadow: 0 5px #008CBA;
+  transform: translateY(4px);
+}
+
+@media print {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+    }
+}
+ */
+.pdf-style {
+    font-family: 'Arial, sans-serif';
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.pdf-style th, .pdf-style td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
 /* Styl dla komórek z medalami */
 .medal-cell {
     text-align: center;

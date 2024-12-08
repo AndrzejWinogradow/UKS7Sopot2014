@@ -231,7 +231,9 @@ function filterByName() {
         generateTable(filteredData); // Wyświetl tylko wybranego zawodnika
     }
 }
-// console.log(data); // Sprawdź załadowane dane JSON
+
+
+
 
 
 main(); // Uruchom aplikację

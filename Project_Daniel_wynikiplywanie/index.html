@@ -6,6 +6,7 @@
     <title>SOPOT SP 7 rocznik 2014</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 
 </head>
 <body>
@@ -36,7 +37,7 @@
             <option value="G">Widok G</option>
             <option value="H">Widok H</option>
         </select>
-    </div>
+    </div >
 
     <!-- Przełącznik zawodników -->
     <div class="name-filter">
@@ -46,6 +47,10 @@
         </select>
     </div>
 
+    <!-- button pobierania pdfa, źle umiejscowiony, nie pobiera css?, divy dodane niepotrzebnie? -->
+    <div class="name-filter">
+    <button id="download-pdf" onclick="downloadTableAsPDF()">Pobierz PDF</button>
+    </div>
 
     <table id="results-table">
 
@@ -98,7 +103,43 @@
             <!-- Dane będą załadowane dynamicznie -->
         </tbody>
     </table>
+    <!-- funkcja pobierania pdfa -->
+    <script>
+        function downloadTableAsPDF() {
+            const table = document.querySelector('#results-table');
+            const sortButtons = document.querySelectorAll('.sort-button');
 
+            // Tymczasowo ukryj przyciski sortowania
+            sortButtons.forEach(button => button.style.display = 'none');
+
+            // Dodaj tytuł
+            const title = document.createElement('h2');
+            title.textContent = 'Tabela wyników';
+            title.style.textAlign = 'center';
+            table.parentNode.insertBefore(title, table);
+
+            // Opcje dla html2pdf
+            const options = {
+                margin: 10,
+                filename: 'tabela-wynikow.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 1 },
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+            };
+
+            // Generowanie PDF
+            html2pdf().set(options).from(table).save().then(() => {
+                // Usunięcie tymczasowego tytułu
+                title.remove();
+                // Przywrócenie widoczności przycisków sortowania
+                sortButtons.forEach(button => button.style.display = '');
+            });
+            table.classList.add('pdf-style');
+            html2pdf().set(options).from(table).save().then(() => {
+            table.classList.remove('pdf-style');
+            });
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
