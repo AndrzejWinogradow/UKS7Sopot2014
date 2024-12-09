@@ -124,5 +124,75 @@
         "time": "1:21.05",
         "pts": "30",
         "place": "12"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2022-11-18",
+        "time": "53.03",
+        "pts": "73",
+        "place": "1"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2022-11-18",
+        "time": "57.76",
+        "pts": "56",
+        "place": "4"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2022-11-18",
+        "time": "57.88",
+        "pts": "56",
+        "place": "5"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2022-11-18",
+        "time": "58.52",
+        "pts": "54",
+        "place": "7"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2022-11-18",
+        "time": "59.30",
+        "pts": "52",
+        "place": "9"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2022-11-18",
+        "time": "1:01.26",
+        "pts": "47",
+        "place": "11"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2022-11-18",
+        "time": "1:04.60",
+        "pts": "40",
+        "place": "13"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2022-11-18",
+        "time": "1:12.62",
+        "pts": "28",
+        "place": "16"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2022-11-18",
+        "time": "47.30",
+        "pts": "103",
+        "place": "dsq"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2022-11-18",
+        "time": "1:19.17",
+        "pts": "20",
+        "place": "dsq"
     }
 ]

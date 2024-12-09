@@ -26,5 +26,40 @@
         "time": "1:21.92",
         "pts": "28",
         "place": "9"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2022-11-18",
+        "time": "1:09.48",
+        "pts": "69",
+        "place": "5"
+    },
+    {
+        "name": "Baraniak Julia",
+        "date": "2022-11-18",
+        "time": "1:16.49",
+        "pts": "52",
+        "place": "6"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2022-11-18",
+        "time": "1:19.72",
+        "pts": "45",
+        "place": "8"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2022-11-18",
+        "time": "1:27.16",
+        "pts": "30",
+        "place": "dsq"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2022-11-18",
+        "time": "1:27.95",
+        "pts": "30",
+        "place": "dsq"
     }
 ]

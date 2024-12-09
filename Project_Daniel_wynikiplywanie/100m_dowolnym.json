@@ -19,5 +19,40 @@
         "time": "2:21.66",
         "pts": "31",
         "place": "4"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2022-11-18",
+        "time": "1:44.95",
+        "pts": "109",
+        "place": "3"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2022-11-18",
+        "time": "1:55.64",
+        "pts": "82",
+        "place": "4"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2022-11-18",
+        "time": "2:02.69",
+        "pts": "68",
+        "place": "5"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2022-11-18",
+        "time": "2:06.41",
+        "pts": "62",
+        "place": "6"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2022-11-18",
+        "time": "2:14.87",
+        "pts": "51",
+        "place": "7"
     }
 ]

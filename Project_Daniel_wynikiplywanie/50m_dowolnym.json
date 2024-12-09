@@ -187,5 +187,103 @@
         "time": "1:12.68",
         "pts": "21",
         "place": "14"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2022-11-18",
+        "time": "38.26",
+        "pts": "146",
+        "place": "1"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2022-11-18",
+        "time": "49.04",
+        "pts": "69",
+        "place": "3"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2022-11-18",
+        "time": "53.31",
+        "pts": "54",
+        "place": "7"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2022-11-18",
+        "time": "54.13",
+        "pts": "51",
+        "place": "8"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2022-11-18",
+        "time": "56.25",
+        "pts": "46",
+        "place": "9"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2022-11-18",
+        "time": "1:00.65",
+        "pts": "36",
+        "place": "11"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2022-11-18",
+        "time": "1:17.52",
+        "pts": "17",
+        "place": "15"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2022-11-18",
+        "time": "1:19.40",
+        "pts": "16",
+        "place": "16"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2022-11-18",
+        "time": "1:01.85",
+        "pts": "34",
+        "place": "dsq"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2022-11-18",
+        "time": "50.21",
+        "pts": "95",
+        "place": "2"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2022-11-18",
+        "time": "54.80",
+        "pts": "73",
+        "place": "4"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2022-11-18",
+        "time": "58.41",
+        "pts": "60",
+        "place": "5"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2022-11-18",
+        "time": "1:05.38",
+        "pts": "43",
+        "place": "6"
+    },
+    {
+        "name": "Baraniak Julia",
+        "date": "2022-11-18",
+        "time": "1:05.83",
+        "pts": "42",
+        "place": "7"
     }
 ]
