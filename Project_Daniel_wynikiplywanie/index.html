@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOPOT SP 7 rocznik 2014</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
 
 </head>
 <body>
+
     <h1>SOPOT SP 7 rocznik 2014</h1>
 
     <!-- Przełącznik plików -->
@@ -22,10 +23,10 @@
             <option value="50m_motylkiem.json">50m Motylkiem</option>
             <option value="100m_zmiennym.json">100m Zmiennym</option>
         </select>
-    </div>
+    <!--</div>-->
 
     <!-- Przełącznik widoków -->
-    <div class="view-selector">
+    <!--<div class="view-selector">-->
         <label for="view-select">Wybierz widok:</label>
         <select id="view-select" onchange="changeView()">
             <option value="A">Widok A</option>
@@ -37,19 +38,19 @@
             <option value="G">Widok G</option>
             <option value="H">Widok H</option>
         </select>
-    </div >
+    <!--</div >-->
 
     <!-- Przełącznik zawodników -->
-    <div class="name-filter">
+    <!--<div class="name-filter">-->
         <label for="name-select">Wybór zawodnika:</label>
         <select id="name-select" onchange="filterByName()">
             <option value="all">Wszyscy</option> <!-- Domyślna opcja -->
         </select>
-    </div>
+    <!--</div>-->
 
-    <!-- button pobierania pdfa, źle umiejscowiony, nie pobiera css?, divy dodane niepotrzebnie? -->
-    <div class="name-filter">
-    <button id="download-pdf" onclick="downloadTableAsPDF()">Pobierz PDF</button>
+    <!-- button pobierania pdfa -->
+    <!--<div class="name-filter">-->
+    <button id="print-pdf">Pobierz PDF</button>
     </div>
 
     <table id="results-table">
@@ -59,31 +60,31 @@
                 <th>
                     Nazwisko Imię
                     <button onclick="sortTable('name')">
-                        Sort <span id="name-sort"></span>
+                        <!--Sort--> <span id="name-sort"></span>
                     </button>
                 </th>
                 <th>
                     Data
                     <button onclick="sortTable('date')">
-                        Sort <span id="date-sort"></span>
+                        <!--Sort--> <span id="date-sort"></span>
                     </button>
                 </th>
                 <th>
                     Czas
                     <button onclick="sortTable('time')">
-                        Sort <span id="time-sort"></span>
+                        <!--Sort--> <span id="time-sort"></span>
                     </button>
                 </th>
                 <th>
                     Punkty FINA
                     <button onclick="sortTable('pts')">
-                        Sort <span id="pts-sort"></span>
+                        <!--Sort--> <span id="pts-sort"></span>
                     </button>
                 </th>
                 <th>
-                    Miejsce na zawodach
+                    Miejsce
                     <button onclick="sortTable('place')">
-                        Sort <span id="place-sort"></span>
+                        <!--Sort--> <span id="place-sort"></span>
                     </button>
                 </th>
 
@@ -93,54 +94,24 @@
                 <th>
                     PB
                 </th>
-
-
             </tr>
         </thead>
-
 
         <tbody>
             <!-- Dane będą załadowane dynamicznie -->
         </tbody>
     </table>
-    <!-- funkcja pobierania pdfa -->
-    <script>
-        function downloadTableAsPDF() {
-            const table = document.querySelector('#results-table');
-            const sortButtons = document.querySelectorAll('.sort-button');
 
-            // Tymczasowo ukryj przyciski sortowania
-            sortButtons.forEach(button => button.style.display = 'none');
+    <div class="file-selector">
+                <!-- Stopka -->
+        <footer id="print-footer">
+            <p>©WinMedia | Data: <span id="current-date"></span> | źródło danych <a href="https://livetiming.pl/">livetiming</a> </p>
+        </footer>
+    </div>
 
-            // Dodaj tytuł
-            const title = document.createElement('h2');
-            title.textContent = 'Tabela wyników';
-            title.style.textAlign = 'center';
-            table.parentNode.insertBefore(title, table);
-
-            // Opcje dla html2pdf
-            const options = {
-                margin: 10,
-                filename: 'tabela-wynikow.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 1 },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-            };
-
-            // Generowanie PDF
-            html2pdf().set(options).from(table).save().then(() => {
-                // Usunięcie tymczasowego tytułu
-                title.remove();
-                // Przywrócenie widoczności przycisków sortowania
-                sortButtons.forEach(button => button.style.display = '');
-            });
-            table.classList.add('pdf-style');
-            html2pdf().set(options).from(table).save().then(() => {
-            table.classList.remove('pdf-style');
-            });
-        }
+    <script src="script.js">
     </script>
-    <script src="script.js"></script>
+
 </body>
 </html>
 

@@ -9,6 +9,22 @@ let sortDirections = {
     place: 'asc'
 };
 
+// print to pdf by browser
+//document.getElementById('print-pdf').addEventListener('click', () => {
+//    window.print();
+//});
+
+document.getElementById('print-pdf').addEventListener('click', () => {
+    // Wstawienie aktualnej daty
+    const dateElement = document.getElementById('current-date');
+    const currentDate = new Date().toLocaleDateString('pl-PL');
+    dateElement.textContent = currentDate;
+
+    // Wywołanie opcji drukowania
+    window.print();
+});
+
+
 // Funkcja do ładowania danych JSON
 async function loadJSON(fileName) {
     const response = await fetch(fileName);
@@ -85,9 +101,9 @@ function updateSortIcons() {
     for (const [key, direction] of Object.entries(sortDirections)) {
         const span = document.getElementById(`${key}-sort`);
         if (direction === 'asc') {
-            span.textContent = '🔼'; // Rosnąco
+            span.textContent = '⬀'; // Rosnąco
         } else {
-            span.textContent = '🔽'; // Malejąco
+            span.textContent = '⬂'; // Malejąco
         }
     }
 }
