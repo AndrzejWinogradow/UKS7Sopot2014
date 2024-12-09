@@ -37,7 +37,7 @@ def add_record(name, date, time, pts, place):
 # Funkcja główna
 def main():
     while True:
-        print("\nDodawanie rekordu do '50m_dowolnym':")
+        print("\nDodawanie rekordu do pliku JSON:")
         name = input("Podaj Nazwisko i Imię: ")
         date = input("Podaj datę (YYYY-MM-DD): ")
         time = input("Podaj czas (format HH:MM:SS.SSS): ")

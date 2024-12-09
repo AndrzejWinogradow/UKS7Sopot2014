@@ -94,10 +94,6 @@ function generateTable(data) {
     });
 }
 
-
-
-
-
 // Funkcja do aktualizacji ikon sortowania
 function updateSortIcons() {
     // Czyszczenie ikon sortowania
@@ -115,6 +111,16 @@ function updateSortIcons() {
         }
     }
 }
+// Funkcja konwersująca wynik na sekundy
+function convertTimeToSeconds(timeString) {
+    // Jeśli czas jest w formacie `mm:ss.sss`
+    if (timeString.includes(':')) {
+        const [minutes, seconds] = timeString.split(':');
+        return parseInt(minutes, 10) * 60 + parseFloat(seconds);
+    }
+    // Jeśli czas jest w formacie `ss.sss`
+    return parseFloat(timeString);
+}
 
 // Funkcja sortująca
 function sortTable(column) {
@@ -127,9 +133,17 @@ function sortTable(column) {
             // Porównanie dat
             comparison = new Date(a[column]) - new Date(b[column]);
         } else if (column === 'time') {
-            // Porównanie czasu w formacie ss.sss
-            const timeToNumber = time => parseFloat(time); // Parsuj czas jako float
-            comparison = timeToNumber(a[column]) - timeToNumber(b[column]);
+            // Funkcja pomocnicza do konwersji czasu na sekundy
+            const timeToSeconds = time => {
+                if (time.includes(':')) {
+                    const [minutes, seconds] = time.split(':');
+                    return parseInt(minutes, 10) * 60 + parseFloat(seconds);
+                }
+                return parseFloat(time); // Jeśli czas jest tylko w formacie ss.sss
+            };
+
+            // Porównanie czasu w sekundach
+            comparison = timeToSeconds(a[column]) - timeToSeconds(b[column]);
         } else if (column === 'pts') {
             // Porównanie punktów (liczbowo)
             comparison = parseInt(a[column]) - parseInt(b[column]);

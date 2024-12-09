@@ -4,7 +4,7 @@
         "date": "2022-05-14",
         "time": "56.74",
         "pts": "44",
-        "place": "3"
+        "place": "5"
     },
     {
         "name": "Winogradow Daniel",
@@ -19,5 +19,82 @@
         "time": "47.21",
         "pts": "77",
         "place": "2"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2022-05-14",
+        "time": "51.53",
+        "pts": "88",
+        "place": "3"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2022-05-14",
+        "time": "56.93",
+        "pts": "65",
+        "place": "4"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2022-05-14",
+        "time": "1:04.82",
+        "pts": "44",
+        "place": "7"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2022-05-14",
+        "time": "1:17.72",
+        "pts": "25",
+        "place": "11"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2022-05-14",
+        "time": "1:30.62",
+        "pts": "16",
+        "place": "16"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2022-05-14",
+        "time": "1:32.78",
+        "pts": "15",
+        "place": "18"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2022-05-14",
+        "time": "43.72",
+        "pts": "98",
+        "place": "1"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2022-05-14",
+        "time": "1:07.59",
+        "pts": "26",
+        "place": "8"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2022-05-14",
+        "time": "1:13.52",
+        "pts": "20",
+        "place": "11"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2022-05-14",
+        "time": "1:24.32",
+        "pts": "13",
+        "place": "17"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2022-05-14",
+        "time": "1:01.23",
+        "pts": "35",
+        "place": "dsq"
     }
 ]
