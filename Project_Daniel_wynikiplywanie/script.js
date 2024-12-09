@@ -41,9 +41,14 @@ function generateTable(data) {
     // Oblicz PB dla zawodników
     const personalBests = calculatePB(data);
 
-    // Iteracja po danych
-    data.forEach(record => {
+    data.forEach((record, index) => {
         const row = document.createElement('tr');
+
+        // Dodaj numerację rzędów
+        const rowNumberCell = document.createElement('td');
+        rowNumberCell.textContent = index + 1; // Numer wiersza (1-based)
+        rowNumberCell.classList.add('row-number'); // Klasa dla stylizacji
+        row.appendChild(rowNumberCell);
 
         // Tworzenie komórek dla istniejących kolumn
         Object.entries(record).forEach(([key, value]) => {
@@ -52,12 +57,27 @@ function generateTable(data) {
             row.appendChild(cell);
         });
 
+        // Tworzenie komórki PB
+        const pbCell = document.createElement('td');
+        pbCell.classList.add('pb-cell');
+
+        const timeInSeconds = parseFloat(record.time);
+
+        // Jeśli czas to PB, dodaj ikonę
+        if (timeInSeconds === personalBests[record.name]) {
+            const icon = document.createElement('span');
+            icon.classList.add('pb-checked');
+            pbCell.appendChild(icon);
+        }
+
+        row.appendChild(pbCell); // Dodaj komórkę PB do wiersza
+
         // Tworzenie komórki "Medale"
         const medalCell = document.createElement('td');
         medalCell.classList.add('medal-cell');
+        const recordPlace = parseInt(record.place, 10);
 
         // Przypisanie emotki medalu w zależności od miejsca
-        const recordPlace = parseInt(record.place, 10); // Konwertuj miejsce na liczbę
         if (recordPlace === 1) {
             medalCell.textContent = "🥇"; // Złoty medal
         } else if (recordPlace === 2) {
@@ -70,22 +90,10 @@ function generateTable(data) {
 
         row.appendChild(medalCell); // Dodaj komórkę "Medale" do wiersza
 
-        // Tworzenie komórki PB
-        const pbCell = document.createElement('td');
-        pbCell.classList.add('pb-cell');
-
-        const timeInSeconds = parseFloat(record.time);
-        if (timeInSeconds === personalBests[record.name]) {
-            const icon = document.createElement('span');
-            icon.classList.add('pb-checked');
-            pbCell.appendChild(icon);
-        }
-
-        row.appendChild(pbCell); // Dodaj komórkę PB do wiersza
-
         tableBody.appendChild(row); // Dodaj wiersz do tabeli
     });
 }
+
 
 
 

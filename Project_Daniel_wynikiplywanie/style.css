@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+}
+
 /* Styl dla przełącznika widoków */
 .view-selector {
     margin: 20px auto;
@@ -55,6 +59,12 @@ h1 {
     cursor: pointer;
 }
 
+/* Kolumna numeracji */
+.row-number {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
 
 /* Styl dla komórki PB */
 td.pb-cell {
