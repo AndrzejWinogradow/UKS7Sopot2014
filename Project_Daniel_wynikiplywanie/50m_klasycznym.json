@@ -1,0 +1,30 @@
+[
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2022-10-07",
+        "time": "1:10.14",
+        "pts": "45",
+        "place": "5"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2022-10-07",
+        "time": "1:11.57",
+        "pts": "42",
+        "place": "6"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2022-10-07",
+        "time": "1:17.65",
+        "pts": "33",
+        "place": "8"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2022-10-07",
+        "time": "1:21.92",
+        "pts": "28",
+        "place": "9"
+    }
+]

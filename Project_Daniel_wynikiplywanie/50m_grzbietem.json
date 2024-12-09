@@ -82,5 +82,47 @@
         "time": "1:22.23",
         "pts": "19",
         "place": "dsq"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2022-10-07",
+        "time": "54.69",
+        "pts": "98",
+        "place": "4"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2022-10-07",
+        "time": "54.95",
+        "pts": "97",
+        "place": "5"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2022-10-07",
+        "time": "57.05",
+        "pts": "86",
+        "place": "7"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2022-10-07",
+        "time": "1:00.49",
+        "pts": "72",
+        "place": "9"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2022-10-07",
+        "time": "1:09.55",
+        "pts": "47",
+        "place": "11"
+    },
+    {
+        "name": "Baraniak Julia",
+        "date": "2022-10-07",
+        "time": "1:21.05",
+        "pts": "30",
+        "place": "12"
     }
 ]

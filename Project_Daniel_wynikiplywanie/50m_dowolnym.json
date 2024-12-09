@@ -11,7 +11,7 @@
         "date": "2022-10-07",
         "time": "49.43",
         "pts": "67",
-        "place": "1"
+        "place": "2"
     },
     {
         "name": "Winogradow Daniel",
@@ -96,5 +96,96 @@
         "time": "1:01.23",
         "pts": "35",
         "place": "dsq"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2022-10-07",
+        "time": "1:00.39",
+        "pts": "54",
+        "place": "5"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2022-10-07",
+        "time": "1:01.29",
+        "pts": "52",
+        "place": "6"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2022-10-07",
+        "time": "1:02.15",
+        "pts": "50",
+        "place": "7"
+    },
+    {
+        "name": "Baraniak Julia",
+        "date": "2022-10-07",
+        "time": "1:06.96",
+        "pts": "40",
+        "place": "9"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2022-10-07",
+        "time": "1:09.06",
+        "pts": "36",
+        "place": "11"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2022-10-07",
+        "time": "50.65",
+        "pts": "92",
+        "place": "dsq"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2022-10-07",
+        "time": "39.33",
+        "pts": "134",
+        "place": "1"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2022-10-07",
+        "time": "57.06",
+        "pts": "44",
+        "place": "8"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2022-10-07",
+        "time": "57.17",
+        "pts": "43",
+        "place": "9"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2022-10-07",
+        "time": "59.89",
+        "pts": "38",
+        "place": "10"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2022-10-07",
+        "time": "1:01.91",
+        "pts": "34",
+        "place": "11"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2022-10-07",
+        "time": "1:05.74",
+        "pts": "28",
+        "place": "13"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2022-10-07",
+        "time": "1:12.68",
+        "pts": "21",
+        "place": "14"
     }
 ]
