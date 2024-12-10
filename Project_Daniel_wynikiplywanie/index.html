@@ -14,6 +14,7 @@
     <h1>SOPOT SP 7 rocznik 2014</h1>
 
     <!-- Przełącznik plików -->
+
     <div class="file-selector">
         <label for="file-select">Wybierz konkurencję:</label>
         <select id="file-select" onchange="changeFile()">
@@ -32,10 +33,9 @@
             <option value="200m_klasycznym.json">200m Klasycznym</option>
             <option value="200m_motylkiem.json">200m Motylkiem</option>
         </select>
-    <!--</div>-->
 
     <!-- Przełącznik widoków -->
-    <!--<div class="view-selector">-->
+
         <label for="view-select">Wybierz widok:</label>
         <select id="view-select" onchange="changeView()">
             <option value="A">Widok A</option>
@@ -47,18 +47,19 @@
             <option value="G">Widok G</option>
             <option value="H">Widok H</option>
         </select>
-    <!--</div >-->
 
     <!-- Przełącznik zawodników -->
-    <!--<div class="name-filter">-->
-        <label for="name-select">Wybór zawodnika:</label>
-        <select id="name-select" onchange="filterByName()">
-            <option value="all">Wszyscy</option> <!-- Domyślna opcja -->
-        </select>
-    <!--</div>-->
+
+        <div id="name-selector" class="dropdown">
+        <button class="dropdown-toggle">Wybierz zawodników</button>
+        <div class="dropdown-menu" id="name-checkbox-list">
+            <!-- Checkboxy będą generowane dynamicznie -->
+        </div>
+        </div>
+
 
     <!-- button pobierania pdfa -->
-    <!--<div class="name-filter">-->
+
     <button id="print-pdf">Pobierz PDF</button>
     </div>
 

@@ -47,10 +47,14 @@ function generateTable(data) {
     const tableBody = document.querySelector('#results-table tbody');
     tableBody.innerHTML = ''; // Wyczyść poprzednie dane
 
+
+
     // Oblicz PB dla zawodników na podstawie danych
     const personalBests = calculatePB(data); // Wywołanie funkcji calculatePB
 
-    data.forEach((record, index) => {
+    const dataToRender = filteredData.length > 0 ? filteredData : data;
+
+    dataToRender.forEach((record, index) => {
         const row = document.createElement('tr');
 
         // Dodaj numerację rzędów
@@ -104,6 +108,7 @@ function generateTable(data) {
 }
 
 
+
 // Funkcja do aktualizacji ikon sortowania
 function updateSortIcons() {
     // Czyszczenie ikon sortowania
@@ -133,58 +138,59 @@ function convertTimeToSeconds(timeString) {
 }
 
 // Funkcja sortująca
+let filteredData = []; // Przechowuje aktualnie przefiltrowane dane
+
 function sortTable(column) {
     const direction = sortDirections[column]; // Pobierz aktualny kierunek sortowania
 
-    tableData.sort((a, b) => {
+    // Wybierz dane do sortowania: użyj filtrowanych danych, jeśli są dostępne
+    const dataToSort = filteredData.length > 0 ? filteredData : tableData;
+
+    dataToSort.sort((a, b) => {
         let comparison = 0;
 
         if (column === 'date') {
-            // Porównanie dat
-            comparison = new Date(a[column]) - new Date(b[column]);
+            comparison = new Date(a[column]) - new Date(b[column]); // Porównanie dat
         } else if (column === 'time') {
-            // Funkcja pomocnicza do konwersji czasu na sekundy
-            const timeToSeconds = time => {
-                if (time.includes(':')) {
-                    const [minutes, seconds] = time.split(':');
-                    return parseInt(minutes, 10) * 60 + parseFloat(seconds);
-                }
-                return parseFloat(time); // Jeśli czas jest tylko w formacie ss.sss
-            };
-
-            // Porównanie czasu w sekundach
-            comparison = timeToSeconds(a[column]) - timeToSeconds(b[column]);
-        } else if (column === 'pts') {
-            // Porównanie punktów (liczbowo)
-            comparison = parseInt(a[column]) - parseInt(b[column]);
-        } else if (column === 'place') {
-            // Porównanie miejsca (liczbowo)
-            comparison = parseInt(a[column]) - parseInt(b[column]);
+            const timeToSeconds = time => convertTimeToSeconds(time);
+            comparison = timeToSeconds(a[column]) - timeToSeconds(b[column]); // Porównanie czasu
+        } else if (column === 'pts' || column === 'place') {
+            comparison = parseInt(a[column]) - parseInt(b[column]); // Porównanie liczbowe
         } else {
-            // Porównanie tekstowe (name)
-            comparison = a[column].localeCompare(b[column]);
+            comparison = a[column].localeCompare(b[column]); // Porównanie tekstowe
         }
 
-        // Odwrócenie kierunku sortowania w przypadku malejącego
-        return direction === 'asc' ? comparison : -comparison;
+        return direction === 'asc' ? comparison : -comparison; // Uwzględnienie kierunku
     });
 
     // Przełącz kierunek sortowania
     sortDirections[column] = direction === 'asc' ? 'desc' : 'asc';
 
     updateSortIcons(); // Aktualizacja ikon sortowania
-    generateTable(tableData); // Odśwież tabelę z posortowanymi danymi
+    generateTable(dataToSort); // Odśwież tabelę z posortowanymi danymi
 }
+
+function filterDataBySelectedNames(data) {
+    const selectedNames = Array.from(document.querySelectorAll('input[name="name-filter"]:checked'))
+        .map(checkbox => checkbox.value);
+
+    filteredData = data.filter(record => selectedNames.includes(record.name)); // Aktualizacja filtrowanych danych
+    return filteredData;
+}
+
 
 // Funkcja do zmiany pliku JSON
 async function changeFile() {
     const fileName = document.getElementById('file-select').value; // Pobierz wybrany plik
     const data = await loadJSON(fileName); // Załaduj dane z pliku
     tableData = data; // Zaktualizuj globalne dane
-    populateNameFilter(data); // Zaktualizuj filtr zawodników
+    generateNameCheckboxDropdown(data); // Wygeneruj rozwijaną listę z checkboxami
     generateTable(data); // Wygeneruj tabelę
     updateSortIcons(); // Inicjalizacja ikon sortowania
 }
+
+document.getElementById('file-select').addEventListener('change', changeFile);
+
 
 
 // Funkcja zmieniająca widok
@@ -193,47 +199,35 @@ function changeView() {
     document.body.className = `view-${view}`; // Ustaw odpowiednią klasę widoku
 }
 
-// Główna funkcja
+// Funkcja główna
 async function main() {
     const data = await loadJSON('50m_dowolnym.json'); // Załaduj domyślny plik
     tableData = data; // Zaktualizuj globalne dane
-    populateNameFilter(data); // Wygeneruj filtr zawodników
+
+    generateNameCheckboxDropdown(data); // Wygeneruj rozwijaną listę z checkboxami
     generateTable(data); // Wygeneruj tabelę
     updateSortIcons(); // Inicjalizacja ikon sortowania
     changeView(); // Ustaw początkowy widok
+
+    // Dodaj event listenery tutaj:
+    // 1. Obsługa rozwijania listy
+    document.querySelector('.dropdown-toggle').addEventListener('click', () => {
+        const dropdown = document.getElementById('name-selector');
+        dropdown.classList.toggle('open');
+    });
+
+    // 2. Obsługa zmiany zaznaczeń w checkboxach
+    document.getElementById('name-checkbox-list').addEventListener('change', () => {
+        filteredData = filterDataBySelectedNames(tableData); // Aktualizacja przefiltrowanych danych
+        generateTable(filteredData); // Odśwież tabelę
+    });
+
 }
-/*async function main() {
-        try {
-            const data = await loadJSON('50m_dowolnym.json'); // Załaduj domyślny plik
-            tableData = data; // Zaktualizuj globalne dane
-            populateNameFilter(data); // Wygeneruj filtr zawodników
-            generateTable(data); // Wygeneruj tabelę
-            updateSortIcons(); // Inicjalizacja ikon sortowania
-            changeView(); // Ustaw początkowy widok
-            //const data = await response.json();
 
-            // Now loop through the data
-            data.forEach(record => {
-                // ... your existing code to create table rows ...
-                const medalCell = document.createElement('td');
-                medalCell.classList.add('medal-cell');
 
-                //Check if record and record.place exist
-                if (record && record.place) {
-                    const recordPlace = parseFloat(record.place);
-                    // ... your medal assignment logic ...
-                } else {
-                    console.error("Record or record.place is missing:", record);
-                    medalCell.textContent = ""; // Or handle the missing data appropriately
-                }
-                // ... rest of your code ...
-            });
-        } catch (error) {
-            console.error("Error fetching data:", error);
-            // Handle the error appropriately, e.g., display an error message to the user
-        }
-    }
-*/
+
+
+
 // Oblicza rekordy PB (Personal Best) dla zawodników
 function calculatePB(data) {
     const personalBests = {};
@@ -277,6 +271,85 @@ function filterByName() {
         generateTable(filteredData); // Wyświetl tylko wybranego zawodnika
     }
 }
+
+// Funkcja generowania listy z nazwiskami
+function generateNameCheckboxes(data) {
+    const nameForm = document.getElementById('name-form');
+    nameForm.innerHTML = ''; // Wyczyść poprzednie checkboxy
+
+    // Pobierz unikalne nazwiska z danych
+    const uniqueNames = [...new Set(data.map(record => record.name))];
+
+    // Twórz checkboxy dla każdego nazwiska
+    uniqueNames.forEach(name => {
+        const label = document.createElement('label');
+        label.textContent = name;
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = name;
+        checkbox.name = 'name-filter';
+        checkbox.checked = true; // Domyślnie wszystkie zaznaczone
+
+        label.prepend(checkbox); // Dodaj checkbox przed nazwiskiem
+        nameForm.appendChild(label);
+
+        // Dodaj separator dla czytelności
+        nameForm.appendChild(document.createElement('br'));
+    });
+}
+
+function generateNameDropdown(data) {
+    const nameSelect = document.getElementById('name-select');
+    nameSelect.innerHTML = ''; // Wyczyść poprzednie opcje
+
+    // Pobierz unikalne nazwiska z danych
+    const uniqueNames = [...new Set(data.map(record => record.name))];
+
+    // Twórz opcje dla każdego nazwiska
+    uniqueNames.forEach(name => {
+        const option = document.createElement('option');
+        option.value = name;
+        option.textContent = name;
+        option.selected = true; // Domyślnie wszystkie zaznaczone
+        nameSelect.appendChild(option);
+    });
+}
+
+
+// Funkcja wyboru na liście z nazwiskami
+function filterDataBySelectedNames(data) {
+    const selectedNames = Array.from(document.querySelectorAll('input[name="name-filter"]:checked'))
+        .map(checkbox => checkbox.value);
+
+    // Filtruj dane tylko dla wybranych zawodników
+    return data.filter(record => selectedNames.includes(record.name));
+}
+
+
+function generateNameCheckboxDropdown(data) {
+    const dropdownMenu = document.getElementById('name-checkbox-list');
+    dropdownMenu.innerHTML = ''; // Wyczyść poprzednie checkboxy
+
+    // Pobierz unikalne nazwiska
+    const uniqueNames = [...new Set(data.map(record => record.name))];
+
+    // Generuj checkboxy dla każdego nazwiska
+    uniqueNames.forEach(name => {
+        const label = document.createElement('label');
+        label.textContent = name;
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = name;
+        checkbox.name = 'name-filter';
+        checkbox.checked = true; // Domyślnie wszystkie zaznaczone
+
+        label.prepend(checkbox); // Dodaj checkbox przed tekstem
+        dropdownMenu.appendChild(label);
+    });
+}
+
 
 
 
