@@ -194,5 +194,327 @@
         "time": "1:19.17",
         "pts": "20",
         "place": "dsq"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2023-05-13",
+        "time": "48.73",
+        "pts": "139",
+        "place": "5"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2023-05-13",
+        "time": "55.49",
+        "pts": "64",
+        "place": "17"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2023-05-13",
+        "time": "1:20.81",
+        "pts": "30",
+        "place": "43"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2023-05-13",
+        "time": "56.75",
+        "pts": "88",
+        "place": "26"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2023-05-13",
+        "time": "55.40",
+        "pts": "64",
+        "place": "16"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2023-05-13",
+        "time": "44.00",
+        "pts": "128",
+        "place": "1"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2023-05-13",
+        "time": "55.42",
+        "pts": "94",
+        "place": "21"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2023-05-13",
+        "time": "49.62",
+        "pts": "132",
+        "place": "6"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2023-05-13",
+        "time": "52.92",
+        "pts": "108",
+        "place": "13"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2023-05-13",
+        "time": "56.16",
+        "pts": "91",
+        "place": "24"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2023-05-13",
+        "time": "53.79",
+        "pts": "70",
+        "place": "13"
+    },
+    {
+        "name": "Doma\u0144ska Liliana",
+        "date": "2023-05-13",
+        "time": "1:05.46",
+        "pts": "57",
+        "place": "39"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2023-05-13",
+        "time": "51.92",
+        "pts": "78",
+        "place": "8"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2023-05-13",
+        "time": "1:12.24",
+        "pts": "42",
+        "place": "42"
+    },
+    {
+        "name": "Baraniak Julia",
+        "date": "2023-05-13",
+        "time": "1:06.20",
+        "pts": "55",
+        "place": "40"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2023-11-10",
+        "time": "52.19",
+        "pts": "76",
+        "place": "5"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2023-11-10",
+        "time": "1:01.44",
+        "pts": "69",
+        "place": "14"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2023-10-07",
+        "time": "1:04.57",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2023-11-10",
+        "time": "54.12",
+        "pts": "68",
+        "place": "7"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2023-11-10",
+        "time": "51.11",
+        "pts": "120",
+        "place": "5"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2023-11-10",
+        "time": "48.77",
+        "pts": "138",
+        "place": "3"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2023-11-10",
+        "time": "1:05.60",
+        "pts": "57",
+        "place": "15"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2023-11-10",
+        "time": "57.22",
+        "pts": "85",
+        "place": "11"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2023-11-10",
+        "time": "54.24",
+        "pts": "67",
+        "place": "8"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2023-05-30",
+        "time": "57.82",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2024-04-28",
+        "time": "45.77",
+        "pts": "167",
+        "place": "9"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2023-12-18",
+        "time": "45.35",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2024-04-28",
+        "time": "48.90",
+        "pts": "92",
+        "place": "15"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2024-04-28",
+        "time": "50.19",
+        "pts": "85",
+        "place": "18"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2024-03-16",
+        "time": "52.11",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2024-04-28",
+        "time": "1:05.46",
+        "pts": "57",
+        "place": "55"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2024-04-28",
+        "time": "53.73",
+        "pts": "103",
+        "place": "39"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2024-04-28",
+        "time": "53.84",
+        "pts": "69",
+        "place": "32"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2023-12-18",
+        "time": "52.08",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2024-04-28",
+        "time": "39.54",
+        "pts": "174",
+        "place": "1"
+    },
+    {
+        "name": "Lesniewska Emilia",
+        "date": "2024-04-28",
+        "time": "46.77",
+        "pts": "157",
+        "place": "11"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2023-12-18",
+        "time": "47.78",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2024-04-28",
+        "time": "46.04",
+        "pts": "164",
+        "place": "10"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2024-04-28",
+        "time": "48.22",
+        "pts": "96",
+        "place": "14"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2023-12-18",
+        "time": "52.47",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2024-04-28",
+        "time": "52.69",
+        "pts": "73",
+        "place": "27"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2024-04-28",
+        "time": "44.95",
+        "pts": "177",
+        "place": "5"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2024-04-28",
+        "time": "54.94",
+        "pts": "97",
+        "place": "45"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2023-12-18",
+        "time": "57.44",
+        "pts": "?",
+        "place": "?"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2024-04-28",
+        "time": "52.95",
+        "pts": "72",
+        "place": "28"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2024-04-28",
+        "time": "1:06.78",
+        "pts": "36",
+        "place": "45"
     }
 ]
