@@ -33,13 +33,22 @@ async function loadJSON(fileName) {
     return data;
 }
 
+// Funkcja konwertująca czas z min na sek
+function convertTimeToSeconds(timeString) {
+    if (timeString.includes(':')) {
+        const [minutes, seconds] = timeString.split(':');
+        return parseInt(minutes, 10) * 60 + parseFloat(seconds);
+    }
+    return parseFloat(timeString);
+}
+
 // Funkcja generująca tabelę
 function generateTable(data) {
     const tableBody = document.querySelector('#results-table tbody');
     tableBody.innerHTML = ''; // Wyczyść poprzednie dane
 
-    // Oblicz PB dla zawodników
-    const personalBests = calculatePB(data);
+    // Oblicz PB dla zawodników na podstawie danych
+    const personalBests = calculatePB(data); // Wywołanie funkcji calculatePB
 
     data.forEach((record, index) => {
         const row = document.createElement('tr');
@@ -61,7 +70,7 @@ function generateTable(data) {
         const pbCell = document.createElement('td');
         pbCell.classList.add('pb-cell');
 
-        const timeInSeconds = parseFloat(record.time);
+        const timeInSeconds = convertTimeToSeconds(record.time); // Użycie funkcji konwertującej
 
         // Jeśli czas to PB, dodaj ikonę
         if (timeInSeconds === personalBests[record.name]) {
@@ -93,6 +102,7 @@ function generateTable(data) {
         tableBody.appendChild(row); // Dodaj wiersz do tabeli
     });
 }
+
 
 // Funkcja do aktualizacji ikon sortowania
 function updateSortIcons() {
@@ -228,13 +238,10 @@ async function main() {
 function calculatePB(data) {
     const personalBests = {};
 
-    // Przejdź przez wszystkie rekordy, aby znaleźć najmniejszy czas dla każdego zawodnika
     data.forEach(record => {
-        const { name, time } = record;
+        const name = record.name;
+        const timeInSeconds = convertTimeToSeconds(record.time);
 
-        const timeInSeconds = parseFloat(time); // Parsuj czas jako liczba
-
-        // Aktualizuj PB, jeśli czas jest mniejszy niż dotychczasowy PB
         if (!personalBests[name] || timeInSeconds < personalBests[name]) {
             personalBests[name] = timeInSeconds;
         }
@@ -242,6 +249,7 @@ function calculatePB(data) {
 
     return personalBests;
 }
+
 
 // Funkcja generująca listę zawodników do filtra
 function populateNameFilter(data) {
