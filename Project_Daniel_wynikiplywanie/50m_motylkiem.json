@@ -10,8 +10,8 @@
         "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
         "date": "2023-10-07",
         "time": "47.36",
-        "pts": "?",
-        "place": "?"
+        "pts": "0",
+        "place": "1000"
     },
     {
         "name": "Winogradow Daniel",
@@ -24,8 +24,8 @@
         "name": "Winogradow Daniel",
         "date": "2023-10-07",
         "time": "55.41",
-        "pts": "?",
-        "place": "?"
+        "pts": "0",
+        "place": "1000"
     },
     {
         "name": "Nadaj Hubert",
@@ -38,8 +38,8 @@
         "name": "Nadaj Hubert",
         "date": "2023-10-07",
         "time": "39.34",
-        "pts": "?",
-        "place": "?"
+        "pts": "0",
+        "place": "1000"
     },
     {
         "name": "Kortalla Zofia",
@@ -52,7 +52,147 @@
         "name": "Kortalla Zofia",
         "date": "2023-10-07",
         "time": "47.65",
-        "pts": "?",
-        "place": "?"
+        "pts": "0",
+        "place": "1000"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2024-05-11",
+        "time": "44.20",
+        "pts": "167",
+        "place": "2"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2024-05-11",
+        "time": "46.96",
+        "pts": "99",
+        "place": "3"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2024-05-11",
+        "time": "59.04",
+        "pts": "70",
+        "place": "8"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2024-05-11",
+        "time": "38.64",
+        "pts": "178",
+        "place": "1"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2023-10-07",
+        "time": "39.34",
+        "pts": "0",
+        "place": "1000"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2024-05-11",
+        "time": "43.73",
+        "pts": "173",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2024-10-05",
+        "time": "43.69",
+        "pts": "123",
+        "place": "3"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2024-10-05",
+        "time": "37.78",
+        "pts": "190",
+        "place": "1"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2024-10-05",
+        "time": "44.60",
+        "pts": "163",
+        "place": "2"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2024-10-05",
+        "time": "49.16",
+        "pts": "121",
+        "place": "7"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2024-11-08",
+        "time": "37.11",
+        "pts": "201",
+        "place": "1"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2024-11-08",
+        "time": "44.39",
+        "pts": "165",
+        "place": "1"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2024-11-08",
+        "time": "1:05.44",
+        "pts": "36",
+        "place": "7"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2024-11-08",
+        "time": "50.11",
+        "pts": "115",
+        "place": "3"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2024-12-06",
+        "time": "46.83",
+        "pts": "141",
+        "place": "2"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2024-12-06",
+        "time": "1:07.01",
+        "pts": "34",
+        "place": "9"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2024-12-06",
+        "time": "43.41",
+        "pts": "177",
+        "place": "1"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2024-12-06",
+        "time": "48.96",
+        "pts": "123",
+        "place": "3"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2024-12-06",
+        "time": "37.14",
+        "pts": "200",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2024-12-06",
+        "time": "45.21",
+        "pts": "111",
+        "place": "3"
     }
 ]
