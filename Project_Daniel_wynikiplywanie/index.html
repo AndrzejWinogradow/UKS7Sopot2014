@@ -10,8 +10,17 @@
 
 </head>
 <body>
+    <h1>
 
-    <h1>SOPOT SP 7 rocznik 2014</h1>
+        <img src="logouks7.jpg" alt="Logo SP7 Sopot" width="200" height="200">
+    </h1>
+
+    <h1>
+
+        SOPOT SP 7 rocznik 2014
+
+    </h1>
+
 
     <!-- Przełącznik plików -->
 
@@ -30,8 +39,8 @@
             <option value="200m_zmiennym.json">200m Zmiennym</option>
             <option value="200m_dowolnym.json">200m Dowolnym</option>
             <option value="200m_grzbietem.json">200m Grzbietem</option>
-            <option value="200m_klasycznym.json">200m Klasycznym</option>
-            <option value="200m_motylkiem.json">200m Motylkiem</option>
+            <!--<option value="200m_klasycznym.json">200m Klasycznym</option>
+            <option value="200m_motylkiem.json">200m Motylkiem</option>-->
         </select>
 
     <!-- Przełącznik widoków -->
@@ -40,12 +49,12 @@
         <select id="view-select" onchange="changeView()">
             <option value="A">Widok A</option>
             <option value="B">Widok B</option>
-            <option value="C">Widok C</option>
+            <!--<option value="C">Widok C</option>
             <option value="D">Widok D</option>
             <option value="E">Widok E</option>
             <option value="F">Widok F</option>
             <option value="G">Widok G</option>
-            <option value="H">Widok H</option>
+            <option value="H">Widok H</option>-->
         </select>
 
     <!-- Przełącznik zawodników -->
@@ -103,6 +112,9 @@
 
                 <th>
                     PB
+                    <button onclick="sortTable('PB')">
+                        <!--Sort--> <span id="PB-sort"></span>
+                    </button>
                 </th>
                 <th>
                     Medale
@@ -119,7 +131,9 @@
 
 </body>
 <footer id="print-footer">
-    <p>©WinMedia | Data: <span id="current-date"></span> | Źródło Danych <a href="https://livetiming.pl/">livetiming</a> </p>
+    <p><img src="logosp7.jpg" alt="Logo SP7 Sopot" width="200" height="200"></p>
+    <p>*brakuje niektórych wyników, oraz miejsc i punktów FINA z zawodów 7.10.2023 oraz 23.12.2023</p>
+    <p>©WinMedia | Data: <span id="current-date"></span> | Źródło Danych <a href="https://livetiming.pl/">livetiming</a> | Loga są własnościa SP7 Sopot i UKS 7 Sopot </p>
 </footer>
 </html>
 

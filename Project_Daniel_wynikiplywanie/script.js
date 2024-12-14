@@ -6,14 +6,11 @@ let sortDirections = {
     date: 'asc',
     time: 'asc',
     pts: 'asc',
-    place: 'asc'
+    place: 'asc',
+    PB: 'asc'
 };
 
-// print to pdf by browser
-//document.getElementById('print-pdf').addEventListener('click', () => {
-//    window.print();
-//});
-
+// Funkcja dodaje datę do pdfa/wydruku
 document.getElementById('print-pdf').addEventListener('click', () => {
     // Wstawienie aktualnej daty
     const dateElement = document.getElementById('current-date');
@@ -43,16 +40,22 @@ function convertTimeToSeconds(timeString) {
 }
 
 // Funkcja generująca tabelę
+let dataToRender = []; // Deklaracja zmiennej w zasięgu globalnym
+
 function generateTable(data) {
     const tableBody = document.querySelector('#results-table tbody');
     tableBody.innerHTML = ''; // Wyczyść poprzednie dane
-
-
 
     // Oblicz PB dla zawodników na podstawie danych
     const personalBests = calculatePB(data); // Wywołanie funkcji calculatePB
 
     const dataToRender = filteredData.length > 0 ? filteredData : data;
+
+    // Oblicz isPB dla każdego rekordu (przed generowaniem wierszy)
+    dataToRender.forEach(record => {
+        const timeInSeconds = convertTimeToSeconds(record.time);
+        record.isPB = timeInSeconds === personalBests[record.name]; // True, jeśli to PB
+    });
 
     dataToRender.forEach((record, index) => {
         const row = document.createElement('tr');
@@ -65,6 +68,9 @@ function generateTable(data) {
 
         // Tworzenie komórek dla istniejących kolumn
         Object.entries(record).forEach(([key, value]) => {
+            // Pomiń renderowanie isPB (nie chcemy go w UI)
+            if (key === 'isPB') return;
+
             const cell = document.createElement('td');
             cell.textContent = value;
             row.appendChild(cell);
@@ -106,6 +112,7 @@ function generateTable(data) {
         tableBody.appendChild(row); // Dodaj wiersz do tabeli
     });
 }
+
 
 
 
@@ -154,8 +161,10 @@ function sortTable(column) {
         } else if (column === 'time') {
             const timeToSeconds = time => convertTimeToSeconds(time);
             comparison = timeToSeconds(a[column]) - timeToSeconds(b[column]); // Porównanie czasu
-        } else if (column === 'pts' || column === 'place') {
+        } else if (column === 'pts' || column === 'place' ) {
             comparison = parseInt(a[column]) - parseInt(b[column]); // Porównanie liczbowe
+        } else if (column === 'PB') {
+            comparison = (a.isPB === b.isPB) ? 0 : a.isPB ? -1 : 1; // Sortuj PB jako pierwsze
         } else {
             comparison = a[column].localeCompare(b[column]); // Porównanie tekstowe
         }
@@ -224,10 +233,6 @@ async function main() {
 
 }
 
-
-
-
-
 // Oblicza rekordy PB (Personal Best) dla zawodników
 function calculatePB(data) {
     const personalBests = {};
@@ -243,7 +248,6 @@ function calculatePB(data) {
 
     return personalBests;
 }
-
 
 // Funkcja generująca listę zawodników do filtra
 function populateNameFilter(data) {
@@ -316,7 +320,6 @@ function generateNameDropdown(data) {
     });
 }
 
-
 // Funkcja wyboru na liście z nazwiskami
 function filterDataBySelectedNames(data) {
     const selectedNames = Array.from(document.querySelectorAll('input[name="name-filter"]:checked'))
@@ -325,7 +328,6 @@ function filterDataBySelectedNames(data) {
     // Filtruj dane tylko dla wybranych zawodników
     return data.filter(record => selectedNames.includes(record.name));
 }
-
 
 function generateNameCheckboxDropdown(data) {
     const dropdownMenu = document.getElementById('name-checkbox-list');
@@ -349,10 +351,6 @@ function generateNameCheckboxDropdown(data) {
         dropdownMenu.appendChild(label);
     });
 }
-
-
-
-
 
 
 main(); // Uruchom aplikację

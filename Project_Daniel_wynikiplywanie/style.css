@@ -1,5 +1,7 @@
 h1 {
     text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 3em;
 }
 
 footer {
@@ -93,6 +95,9 @@ td.pb-cell {
     color: navyblue; /* Kolor check mark */
 }
 
+.hidden-column {
+    display: none;
+}
 
 /* Styl dla komórek z medalami */
 .medal-cell {
@@ -110,7 +115,7 @@ td.pb-cell {
 
 #name-select {
     width: 100%;
-    height: 150px; /* Wysokość kontroluje liczbę widocznych opcji */
+    height: 200px; /* Wysokość kontroluje liczbę widocznych opcji */
     font-size: 16px;
     padding: 5px;
 }
@@ -159,7 +164,7 @@ td.pb-cell {
 
 /* Styl domyślny (Widok A) */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Tahoma, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
