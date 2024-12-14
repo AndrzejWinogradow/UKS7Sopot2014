@@ -1,0 +1,338 @@
+h1 {
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 3em;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Styl dla przełącznika widoków */
+.view-selector {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.view-selector select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.file-selector, .view-selector {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.file-selector select, .view-selector select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.print-pdf {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Styl dla filtra zawodników */
+.name-filter {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.name-filter select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Kolumna numeracji */
+.row-number {
+    text-align: center;
+    font-weight: bold;
+    background-color: #f4f4f4;
+}
+
+/* Styl dla komórki PB */
+td.pb-cell {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Styl ikony PB */
+.pb-checked {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px black; /* czarny kwadrat */
+    border-radius: 2px;
+    background-color: transparent; /* Przezroczysty środek */
+    overflow: visible; /* Umożliwia wyjście elementów poza obręb */
+}
+
+.pb-checked::after {
+    content: '✔'; /* Check mark */
+    position: absolute;
+    top: -5px; /* Wystający poza górę */
+    left: -2px; /* Dopasowanie pozycji */
+    font-size: 18px;
+    color: navyblue; /* Kolor check mark */
+}
+
+.hidden-column {
+    display: none;
+}
+
+/* Styl dla komórek z medalami */
+.medal-cell {
+    text-align: center;
+    font-size: 1.5em; /* Powiększ rozmiar emotki */
+}
+
+/* styl dla checkbox w wyorze nazwisk */
+#name-selector {
+    margin-bottom: 20px;
+}
+#name-form label {
+    margin-right: 10px;
+}
+
+#name-select {
+    width: 100%;
+    height: 200px; /* Wysokość kontroluje liczbę widocznych opcji */
+    font-size: 16px;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 200px; /* Dopasuj szerokość */
+    text-align: left;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 1000;
+    width: 200px; /* Dopasuj szerokość */
+    max-height: 200px; /* Maksymalna wysokość */
+    overflow-y: auto; /* Pasek przewijania */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu label {
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dropdown-menu label:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown.open .dropdown-menu {
+    display: block;
+}
+
+
+/* Styl domyślny (Widok A) */
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/* Widok B: Pismo odręczne na tle papieru czerpanego */
+body.view-B {
+    background: url('tlo_b1.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Dancing Script", cursive;
+    color: #4a2c2a;
+}
+
+body.view-B table {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid #4a2c2a;
+}
+
+body.view-B th, body.view-B td {
+    border: 1px solid #4a2c2a;
+    padding: 15px;
+    text-align: center;
+}
+
+body.view-B th {
+    background-color: #d9c8b4;
+    color: #4a2c2a;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+body.view-B td {
+    font-size: 1.1em;
+}
+
+
+
+/* Widok C: test */
+
+body.view-C {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+body.view-C table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.view-C th, body.view-B td {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+body.view-C th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+body.view-C td {
+    font-size: 1.1em;
+}
+
+
+
+/* Stylowanie dla wydruku */
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #000;
+    }
+
+    #print-area {
+        margin: 20px;
+    }
+
+
+    /* Tabela */
+    #results-table {
+        width: 90%;
+        border-collapse: collapse;
+    }
+
+    #results-table th, #results-table td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+
+        /* Ukryj przyciski i inne elementy niepotrzebne w wydruku */
+    #print-pdf, .sort-button {
+        display: none;
+    }
+
+
+    #print-pdf, .name-filter {
+        display: none;
+    }
+
+    #print-pdf, .file-selector {
+        display: none;
+    }
+
+    #print-pdf, .view-selector {
+        display: none;
+    }
+
+
+
+    /* Styl tabeli */
+    #results-table {
+        width: 90%;
+        border-collapse: collapse;
+    }
+
+    #results-table th {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+
+    #results-table td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: center;
+    }
+
+    /* Specjalne style dla różnych widoków */
+    .view-A {
+        font-family: 'Arial', sans-serif;
+        color: #000;
+    }
+    .view-B {
+        font-family: 'Cursive', sans-serif;
+
+    }
+}
