@@ -1,8 +1,17 @@
 h1 {
     text-align: center;
-    font-family: Tahoma, sans-serif;
-    font-size: 3em;
+    font-family: "Saira Stencil One";
+    font-size: 4em;
+    color: #0066cc;
 }
+
+/* styl czcionki w h1 */
+.saira-stencil-one-regular {
+  font-family: "Saira Stencil One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 footer {
     text-align: center;
@@ -259,7 +268,52 @@ body.view-C td {
     font-size: 1.1em;
 }
 
+/* Media Queries dla urządzeń mobilnych */
+/*@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem; *//* Mniejszy nagłówek *//*
+        margin: 10px 0;
+    }
 
+    select, button, input {
+        font-size: 0.9rem;
+        padding: 8px;
+        margin: 5px;
+        width: 100%; *//* Rozciągnij elementy na całą szerokość *//*
+        box-sizing: border-box;
+    }
+
+    table {
+        font-size: 0.8rem; *//* Zmniejsz tekst w tabeli *//*
+    }
+
+    table td, table th {
+        padding: 5px;
+    }
+
+    *//* Ustaw odstępy wokół tabeli *//*
+    table {
+        margin: 10px 0;
+    }
+}
+
+*//* Media Queries dla bardzo małych urządzeń (np. smartfony) *//*
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; *//* Jeszcze mniejszy nagłówek *//*
+        margin: 5px 0;
+    }
+
+    select, button, input {
+        font-size: 0.8rem;
+        padding: 5px;
+        margin: 5px 0;
+    }
+
+    table {
+        font-size: 0.7rem; *//* Zmniejsz tekst jeszcze bardziej *//*
+    }
+}*/
 
 /* Stylowanie dla wydruku */
 

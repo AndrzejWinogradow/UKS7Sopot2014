@@ -353,4 +353,12 @@ function generateNameCheckboxDropdown(data) {
 }
 
 
+// Dopasowanie wyglądu na telefonach
+document.addEventListener("DOMContentLoaded", () => {
+    if (window.innerWidth <= 768) { // Dla urządzeń o szerokości ekranu <= 768px
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=device-width, initial-scale=0.5');
+    }
+});
+
+
 main(); // Uruchom aplikację
