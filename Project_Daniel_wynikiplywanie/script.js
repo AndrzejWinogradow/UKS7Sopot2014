@@ -361,4 +361,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
 main(); // Uruchom aplikację
