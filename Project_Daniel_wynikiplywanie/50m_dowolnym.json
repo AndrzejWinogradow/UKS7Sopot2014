@@ -1,26 +1,5 @@
 [
     {
-        "name": "Winogradow Daniel",
-        "date": "2022-05-14",
-        "time": "56.74",
-        "pts": "44",
-        "place": "5"
-    },
-    {
-        "name": "Winogradow Daniel",
-        "date": "2022-10-07",
-        "time": "49.43",
-        "pts": "67",
-        "place": "2"
-    },
-    {
-        "name": "Winogradow Daniel",
-        "date": "2022-11-18",
-        "time": "47.21",
-        "pts": "77",
-        "place": "2"
-    },
-    {
         "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
         "date": "2022-05-14",
         "time": "51.53",
@@ -159,6 +138,27 @@
         "time": "1:01.91",
         "pts": "34",
         "place": "11"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2022-05-14",
+        "time": "56.74",
+        "pts": "44",
+        "place": "5"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2022-10-07",
+        "time": "49.43",
+        "pts": "67",
+        "place": "2"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2022-11-18",
+        "time": "47.21",
+        "pts": "77",
+        "place": "2"
     },
     {
         "name": "Nierojewski Jerzy",
@@ -1062,5 +1062,82 @@
         "time": "37.51",
         "pts": "228",
         "place": "5"
+    },
+    {
+        "name": "Buzuk Aleksandra basen 50m",
+        "date": "2025-01-25",
+        "time": "35.12",
+        "pts": "306",
+        "place": "5"
+    },
+    {
+        "name": "Kortalla Zofia basen 50m",
+        "date": "2025-01-25",
+        "time": "40.15",
+        "pts": "204",
+        "place": "20"
+    },
+    {
+        "name": "Maculewicz Laura basen 50m",
+        "date": "2025-01-25",
+        "time": "40.30",
+        "pts": "202",
+        "place": "22"
+    },
+    {
+        "name": "Michalak Nina basen 50m",
+        "date": "2025-01-25",
+        "time": "40.87",
+        "pts": "194",
+        "place": "25"
+    },
+    {
+        "name": "Sharma Anisa basen 50m",
+        "date": "2025-01-25",
+        "time": "41.18",
+        "pts": "189",
+        "place": "26"
+    },
+    {
+        "name": "Borek Zuzanna basen 50m",
+        "date": "2025-01-25",
+        "time": "41.74",
+        "pts": "182",
+        "place": "31"
+    },
+    {
+        "name": "Le\u015bniewska Emilia basen 50m",
+        "date": "2025-01-25",
+        "time": "41.84",
+        "pts": "181",
+        "place": "32"
+    },
+    {
+        "name": "Rozmierska Alicja basen 50m",
+        "date": "2025-01-25",
+        "time": "47.12",
+        "pts": "126",
+        "place": "39"
+    },
+    {
+        "name": "Nadaj Hubert basen 50m",
+        "date": "2025-01-25",
+        "time": "31.42",
+        "pts": "294",
+        "place": "1"
+    },
+    {
+        "name": "Haller J\u0119drzej basen 50m",
+        "date": "2025-01-25",
+        "time": "44.20",
+        "pts": "105",
+        "place": "34"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw basen 50m",
+        "date": "2025-01-25",
+        "time": "53.00",
+        "pts": "61",
+        "place": "40"
     }
 ]

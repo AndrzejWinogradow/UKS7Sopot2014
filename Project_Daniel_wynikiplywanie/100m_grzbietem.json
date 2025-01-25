@@ -61,5 +61,26 @@
         "time": "1:37.74",
         "pts": "177",
         "place": "4"
+    },
+    {
+        "name": "Buzuk Aleksandra basen 50m",
+        "date": "2025-01-25",
+        "time": "1:35.08",
+        "pts": "220",
+        "place": "7"
+    },
+    {
+        "name": "Maculewicz Laura basen 50m",
+        "date": "2025-01-25",
+        "time": "1:35.46",
+        "pts": "217",
+        "place": "8"
+    },
+    {
+        "name": "Michalak Nina basen 50m",
+        "date": "2025-01-25",
+        "time": "1:47.90",
+        "pts": "150",
+        "place": "21"
     }
 ]

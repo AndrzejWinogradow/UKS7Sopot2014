@@ -75,5 +75,33 @@
         "time": "1:50.41",
         "pts": "125",
         "place": "4"
+    },
+    {
+        "name": "Rozmierska Alicja basen 50m",
+        "date": "2025-01-25",
+        "time": "1:58.83",
+        "pts": "157",
+        "place": "11"
+    },
+    {
+        "name": "Sharma Anisa basen 50m",
+        "date": "2025-01-25",
+        "time": "2:06.70",
+        "pts": "129",
+        "place": "16"
+    },
+    {
+        "name": "Winogradow Daniel basen 50m",
+        "date": "2025-01-25",
+        "time": "1:49.25",
+        "pts": "141",
+        "place": "8"
+    },
+    {
+        "name": "Haller J\u0119drzej basen 50m",
+        "date": "2025-01-25",
+        "time": "2:14.48",
+        "pts": "75",
+        "place": "17"
     }
 ]
