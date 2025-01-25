@@ -2,7 +2,7 @@ import json
 import os
 
 # Nazwa pliku JSON
-FILENAME = '200m_dowolnym.json'
+FILENAME = '100m_dowolnym.json'
 
 
 # Funkcja do wczytywania danych z pliku JSON
