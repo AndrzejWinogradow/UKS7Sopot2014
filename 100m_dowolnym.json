@@ -243,5 +243,75 @@
         "time": "2:05.69",
         "pts": "45",
         "place": "16"
+    },
+    {
+        "name": "Buzuk Aleksandra basen 50m",
+        "date": "2025-01-25",
+        "time": "1:18.74",
+        "pts": "283",
+        "place": "6"
+    },
+    {
+        "name": "Kortalla Zofia basen 50m",
+        "date": "2025-01-25",
+        "time": "1:27.64",
+        "pts": "205",
+        "place": "16"
+    },
+    {
+        "name": "Sharma Anisa basen 50m",
+        "date": "2025-01-25",
+        "time": "1:31.74",
+        "pts": "179",
+        "place": "21"
+    },
+    {
+        "name": "Maculewicz Laura basen 50m",
+        "date": "2025-01-25",
+        "time": "1:31.91",
+        "pts": "178",
+        "place": "22"
+    },
+    {
+        "name": "Borek Zuzanna basen 50m",
+        "date": "2025-01-25",
+        "time": "1:32.19",
+        "pts": "176",
+        "place": "23"
+    },
+    {
+        "name": "Michalak Nina basen 50m",
+        "date": "2025-01-25",
+        "time": "1:33.70",
+        "pts": "168",
+        "place": "26"
+    },
+    {
+        "name": "Le\u015bniewska Emilia basen 50m",
+        "date": "2025-01-25",
+        "time": "1:43.67",
+        "pts": "124",
+        "place": "32"
+    },
+    {
+        "name": "Nadaj Hubert basen 50m",
+        "date": "2025-01-25",
+        "time": "1:09.64",
+        "pts": "304",
+        "place": "1"
+    },
+    {
+        "name": "Haller J\u0119drzej basen 50m",
+        "date": "2025-01-25",
+        "time": "1:39.76",
+        "pts": "103",
+        "place": "32"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw basen 50m",
+        "date": "2025-01-25",
+        "time": "1:57.44",
+        "pts": "63",
+        "place": "37"
     }
 ]

@@ -726,5 +726,54 @@
         "time": "52.53",
         "pts": "111",
         "place": "9"
+    },
+    {
+        "name": "Buzuk Aleksandra basen 50m",
+        "date": "2025-01-25",
+        "time": "41.27",
+        "pts": "279",
+        "place": "5"
+    },
+    {
+        "name": "Maculewicz Laura basen 50m",
+        "date": "2025-01-25",
+        "time": "45.14",
+        "pts": "213",
+        "place": "13"
+    },
+    {
+        "name": "Michalak Nina basen 50m",
+        "date": "2025-01-25",
+        "time": "46.68",
+        "pts": "193",
+        "place": "18"
+    },
+    {
+        "name": "Le\u015bniewska Emilia basen 50m",
+        "date": "2025-01-25",
+        "time": "47.66",
+        "pts": "181",
+        "place": "21"
+    },
+    {
+        "name": "Rozmierska Alicja basen 50m",
+        "date": "2025-01-25",
+        "time": "51.91",
+        "pts": "140",
+        "place": "28"
+    },
+    {
+        "name": "Haller J\u0119drzej basen 50m",
+        "date": "2025-01-25",
+        "time": "49.83",
+        "pts": "107",
+        "place": "21"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw basen 50m",
+        "date": "2025-01-25",
+        "time": "59.77",
+        "pts": "62",
+        "place": "29"
     }
 ]
