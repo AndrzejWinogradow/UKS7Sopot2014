@@ -82,5 +82,61 @@
         "time": "1:47.90",
         "pts": "150",
         "place": "21"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-02-02",
+        "time": "1:26.64",
+        "pts": "254",
+        "place": "1"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-02-02",
+        "time": "1:31.10",
+        "pts": "218",
+        "place": "4"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-02-02",
+        "time": "1:45.55",
+        "pts": "140",
+        "place": "23"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-02-02",
+        "time": "1:49.50",
+        "pts": "125",
+        "place": "28"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-02-02",
+        "time": "1:51.84",
+        "pts": "118",
+        "place": "31"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-02-02",
+        "time": "2:03.01",
+        "pts": "88",
+        "place": "33"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-02-02",
+        "time": "1:47.30",
+        "pts": "91",
+        "place": "10"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2025-02-02",
+        "time": "2:32.94",
+        "pts": "31",
+        "place": "21"
     }
 ]
