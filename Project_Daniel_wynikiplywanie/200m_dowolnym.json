@@ -68,5 +68,33 @@
         "time": "3:42.87",
         "pts": "88",
         "place": "24"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-06-14",
+        "time": "2:49.32",
+        "pts": "",
+        "place": "4"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-06-14",
+        "time": "2:55.48",
+        "pts": "",
+        "place": "5"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-06-14",
+        "time": "2:26.20",
+        "pts": "",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-06-14",
+        "time": "2:55.61",
+        "pts": "",
+        "place": "3"
     }
 ]

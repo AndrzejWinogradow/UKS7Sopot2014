@@ -2,7 +2,7 @@ import json
 import os
 
 # Nazwa pliku JSON
-FILENAME = '200m_dowolnym.json'
+FILENAME = '100m_motylkiem.json'
 
 
 # Funkcja do wczytywania danych z pliku JSON
@@ -37,16 +37,19 @@ def add_record(name, date, time, pts, place):
 # Funkcja główna
 def main():
     while True:
-        print("\nDodawanie rekordu do pliku JSON:")
-        name = input("Podaj Nazwisko i Imię: ")
-        date = input("Podaj datę (YYYY-MM-DD): ")
-        time = input("Podaj czas (format HH:MM:SS.SSS): ")
-        pts = input("Podaj punkty FINA: ")
-        place = input("Podaj miejsce na zawodach: ")
+        print(f"\nDodawanie rekordu do pliku JSON {FILENAME}:")
+        date = input("Podaj datę zawodów (YYYY-MM-DD): ")
+        while True:
+                name = input("Podaj Nazwisko i Imię: ")
+                time = input("Podaj czas (format HH:MM:SS.SSS): ")
+                pts = input("Podaj punkty FINA: ")
+                place = input("Podaj miejsce na zawodach: ")
 
-        add_record(name, date, time, pts, place)
+                add_record(name, date, time, pts, place)
 
-        another = input("Czy chcesz dodać kolejny rekord? (tak/nie): ").strip().lower()
+                another = input("Czy chcesz dodać kolejny rekord? (tak/nie): ").strip().lower()
+                if another != 'tak':
+                    break
         if another != 'tak':
             break
 

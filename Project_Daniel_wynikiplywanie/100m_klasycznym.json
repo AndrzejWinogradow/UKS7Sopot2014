@@ -103,5 +103,194 @@
         "time": "2:14.48",
         "pts": "75",
         "place": "17"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-04-05",
+        "time": "1:46.40",
+        "pts": "140",
+        "place": "4"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-04-05",
+        "time": "1:56.86",
+        "pts": "105",
+        "place": "9"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-04-05",
+        "time": "2:02.97",
+        "pts": "90",
+        "place": "11"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-04-05",
+        "time": "2:05.10",
+        "pts": "86",
+        "place": "14"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-04-05",
+        "time": "2:06.18",
+        "pts": "84",
+        "place": "15"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-04-05",
+        "time": "1:51.52",
+        "pts": "174",
+        "place": "8"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-04-05",
+        "time": "1:54.59",
+        "pts": "161",
+        "place": "12"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-04-05",
+        "time": "1:56.24",
+        "pts": "154",
+        "place": "15"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-06-14",
+        "time": "1:42.25",
+        "pts": "226",
+        "place": "4"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-06-14",
+        "time": "1:47.89",
+        "pts": "193",
+        "place": "6"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-06-14",
+        "time": "1:54.82",
+        "pts": "160",
+        "place": "11"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-06-14",
+        "time": "2:00.56",
+        "pts": "138",
+        "place": "13"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-06-14",
+        "time": "1:42.11",
+        "pts": "158",
+        "place": "6"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-06-14",
+        "time": "1:52.56",
+        "pts": "118",
+        "place": "13"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2025-06-14",
+        "time": "1:54.80",
+        "pts": "111",
+        "place": "14"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-06-14",
+        "time": "1:58.62",
+        "pts": "101",
+        "place": "15"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2025-06-14",
+        "time": "2:01.38",
+        "pts": "94",
+        "place": "17"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-06-14",
+        "time": "2:05.01",
+        "pts": "86",
+        "place": "18"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-06-14",
+        "time": "2:19.23",
+        "pts": "62",
+        "place": "20"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-10-18",
+        "time": "1:47.17",
+        "pts": "197",
+        "place": "8"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-10-18",
+        "time": "1:50.95",
+        "pts": "177",
+        "place": "11"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-10-18",
+        "time": "1:50.95",
+        "pts": "177",
+        "place": "11"
+    },
+    {
+        "name": "Rogozik Igor",
+        "date": "2025-10-18",
+        "time": "1:32.56",
+        "pts": "213",
+        "place": "1"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-10-18",
+        "time": "1:51.36",
+        "pts": "122",
+        "place": "5"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-10-18",
+        "time": "1:53.18",
+        "pts": "116",
+        "place": "7"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-10-18",
+        "time": "1:59.56",
+        "pts": "98",
+        "place": "9"
+    },
+    {
+        "name": "Rogozik Igor",
+        "date": "2024-12-06",
+        "time": "1:36.65",
+        "pts": "",
+        "place": ""
     }
 ]

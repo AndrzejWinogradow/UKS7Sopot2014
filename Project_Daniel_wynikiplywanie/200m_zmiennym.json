@@ -5,5 +5,68 @@
         "time": "3:30.71",
         "pts": "193",
         "place": "PK"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-04-05",
+        "time": "2:55.85",
+        "pts": "242",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-04-05",
+        "time": "3:19.21",
+        "pts": "166",
+        "place": "5"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-04-05",
+        "time": "3:09.96",
+        "pts": "263",
+        "place": "3"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-04-05",
+        "time": "3:12.68",
+        "pts": "252",
+        "place": "5"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-04-05",
+        "time": "3:20.26",
+        "pts": "225",
+        "place": "7"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-04-05",
+        "time": "3:46.23",
+        "pts": "156",
+        "place": "16"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-06-14",
+        "time": "3:09.92",
+        "pts": "",
+        "place": "2"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-06-14",
+        "time": "3:10.43",
+        "pts": "",
+        "place": "3"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-06-14",
+        "time": "3:15.76",
+        "pts": "",
+        "place": "4"
     }
 ]

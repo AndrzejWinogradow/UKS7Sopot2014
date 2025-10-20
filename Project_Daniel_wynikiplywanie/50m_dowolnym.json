@@ -1139,5 +1139,187 @@
         "time": "53.00",
         "pts": "61",
         "place": "40"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-05-10",
+        "time": "32.42",
+        "pts": "240",
+        "place": "1"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-05-10",
+        "time": "39.32",
+        "pts": "134",
+        "place": "5"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2025-05-10",
+        "time": "39.65",
+        "pts": "131",
+        "place": "7"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-05-10",
+        "time": "40.22",
+        "pts": "125",
+        "place": "9"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-05-10",
+        "time": "44.21",
+        "pts": "94",
+        "place": "13"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-05-10",
+        "time": "50.77",
+        "pts": "62",
+        "place": "17"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2025-05-10",
+        "time": "53.63",
+        "pts": "53",
+        "place": "18"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-05-10",
+        "time": "34.51",
+        "pts": "293",
+        "place": "2"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-05-10",
+        "time": "38.60",
+        "pts": "209",
+        "place": "6"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-05-10",
+        "time": "38.61",
+        "pts": "209",
+        "place": "7"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-05-10",
+        "time": "39.04",
+        "pts": "202",
+        "place": "9"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-05-10",
+        "time": "40.21",
+        "pts": "185",
+        "place": "11"
+    },
+    {
+        "name": "Smirnova Maryna",
+        "date": "2025-05-10",
+        "time": "42.14",
+        "pts": "161",
+        "place": "16"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-05-10",
+        "time": "42.34",
+        "pts": "158",
+        "place": "17"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-10-04",
+        "time": "32.40",
+        "pts": "354",
+        "place": "3"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-10-04",
+        "time": "35.42",
+        "pts": "271",
+        "place": "6"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-10-04",
+        "time": "36.71",
+        "pts": "243",
+        "place": "11"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-10-04",
+        "time": "36.98",
+        "pts": "238",
+        "place": "12"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-10-04",
+        "time": "37.67",
+        "pts": "225",
+        "place": "14"
+    },
+    {
+        "name": "Smirnova Maryna",
+        "date": "2025-10-04",
+        "time": "42.59",
+        "pts": "156",
+        "place": "23"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-10-04",
+        "time": "30.83",
+        "pts": "279",
+        "place": "1"
+    },
+    {
+        "name": "Rogozik Igor",
+        "date": "2025-10-04",
+        "time": "32.40",
+        "pts": "240",
+        "place": "2"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-10-04",
+        "time": "38.35",
+        "pts": "145",
+        "place": "10"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-10-04",
+        "time": "43.82",
+        "pts": "97",
+        "place": "13"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2025-10-04",
+        "time": "44.18",
+        "pts": "95",
+        "place": "14"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2025-10-04",
+        "time": "47.31",
+        "pts": "77",
+        "place": "16"
     }
 ]
