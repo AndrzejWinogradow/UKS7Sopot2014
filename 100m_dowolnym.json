@@ -313,5 +313,334 @@
         "time": "1:57.44",
         "pts": "63",
         "place": "37"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-04-05",
+        "time": "1:08.08",
+        "pts": "285",
+        "place": "1"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-04-05",
+        "time": "1:31.40",
+        "pts": "118",
+        "place": "12"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-04-05",
+        "time": "1:33.04",
+        "pts": "111",
+        "place": "17"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-04-05",
+        "time": "1:35.85",
+        "pts": "102",
+        "place": "21"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2025-04-05",
+        "time": "1:43.46",
+        "pts": "81",
+        "place": "25"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-04-05",
+        "time": "1:52.72",
+        "pts": "62",
+        "place": "31"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-04-05",
+        "time": "1:16.13",
+        "pts": "287",
+        "place": "3"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-04-05",
+        "time": "1:18.16",
+        "pts": "265",
+        "place": "4"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-04-05",
+        "time": "1:19.03",
+        "pts": "257",
+        "place": "6"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-04-05",
+        "time": "1:27.71",
+        "pts": "188",
+        "place": "17"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-04-05",
+        "time": "1:28.43",
+        "pts": "183",
+        "place": "18"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-04-05",
+        "time": "1:28.60",
+        "pts": "182",
+        "place": "19"
+    },
+    {
+        "name": "Smirnova Maryna",
+        "date": "2025-04-05",
+        "time": "1:36.19",
+        "pts": "142",
+        "place": "32"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-04-05",
+        "time": "1:51.91",
+        "pts": "90",
+        "place": "40"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-06-14",
+        "time": "1:13.90",
+        "pts": "314",
+        "place": "2"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-06-14",
+        "time": "1:18.83",
+        "pts": "259",
+        "place": "5"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-06-14",
+        "time": "1:19.93",
+        "pts": "248",
+        "place": "6"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-06-14",
+        "time": "1:21.77",
+        "pts": "232",
+        "place": "9"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-06-14",
+        "time": "1:22.72",
+        "pts": "224",
+        "place": "11"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-06-14",
+        "time": "1:24.30",
+        "pts": "211",
+        "place": "12"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-06-14",
+        "time": "1:28.25",
+        "pts": "184",
+        "place": "18"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-06-14",
+        "time": "1:28.65",
+        "pts": "182",
+        "place": "20"
+    },
+    {
+        "name": "Smirnova Maryna",
+        "date": "2025-06-14",
+        "time": "1:35.99",
+        "pts": "143",
+        "place": "27"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-06-14",
+        "time": "1:50.86",
+        "pts": "93",
+        "place": "31"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-06-14",
+        "time": "1:07.23",
+        "pts": "296",
+        "place": "1"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2025-06-14",
+        "time": "1:31.92",
+        "pts": "116",
+        "place": "16"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-06-14",
+        "time": "1:31.96",
+        "pts": "115",
+        "place": "17"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-06-14",
+        "time": "1:33.77",
+        "pts": "109",
+        "place": "18"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-06-14",
+        "time": "1:37.19",
+        "pts": "98",
+        "place": "20"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2025-06-14",
+        "time": "1:37.33",
+        "pts": "97",
+        "place": "21"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-06-14",
+        "time": "1:54.73",
+        "pts": "59",
+        "place": "24"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-06-14",
+        "time": "1:55.27",
+        "pts": "58",
+        "place": "25"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-10-18",
+        "time": "1:12.58",
+        "pts": "331",
+        "place": "4"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-10-18",
+        "time": "1:16.99",
+        "pts": "278",
+        "place": "7"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-10-18",
+        "time": "1:17.83",
+        "pts": "269",
+        "place": "8"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-10-18",
+        "time": "1:18.51",
+        "pts": "262",
+        "place": "9"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-10-18",
+        "time": "1:20.15",
+        "pts": "246",
+        "place": "11"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-10-18",
+        "time": "1:21.05",
+        "pts": "238",
+        "place": "14"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-10-18",
+        "time": "1:25.90",
+        "pts": "200",
+        "place": "17"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-10-18",
+        "time": "1:28.87",
+        "pts": "180",
+        "place": "20"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-10-18",
+        "time": "1:07.03",
+        "pts": "299",
+        "place": "1"
+    },
+    {
+        "name": "Rogozik Igor",
+        "date": "2025-10-18",
+        "time": "1:10.99",
+        "pts": "252",
+        "place": "2"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-10-18",
+        "time": "1:21.09",
+        "pts": "169",
+        "place": "7"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-10-18",
+        "time": "1:26.26",
+        "pts": "140",
+        "place": "8"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-10-18",
+        "time": "1:26.75",
+        "pts": "138",
+        "place": "9"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2025-10-18",
+        "time": "1:53.71",
+        "pts": "60",
+        "place": "11"
+    },
+    {
+        "name": "Rogozik Igor",
+        "date": "2025-06-10",
+        "time": "1:12.72",
+        "pts": "",
+        "place": ""
     }
 ]

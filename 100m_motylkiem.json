@@ -40,5 +40,26 @@
         "time": "1:39.00",
         "pts": "124",
         "place": "4"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-10-18",
+        "time": "1:31.35",
+        "pts": "207",
+        "place": "3"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-10-18",
+        "time": "1:36.62",
+        "pts": "175",
+        "place": "4"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-10-18",
+        "time": "1:30.69",
+        "pts": "146",
+        "place": "1"
     }
 ]

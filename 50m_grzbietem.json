@@ -775,5 +775,75 @@
         "time": "59.77",
         "pts": "62",
         "place": "29"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-05-10",
+        "time": "48.65",
+        "pts": "93",
+        "place": "5"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-05-10",
+        "time": "40.07",
+        "pts": "250",
+        "place": "1"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-05-10",
+        "time": "40.99",
+        "pts": "233",
+        "place": "2"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-05-10",
+        "time": "41.38",
+        "pts": "227",
+        "place": "3"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-05-10",
+        "time": "48.83",
+        "pts": "138",
+        "place": "10"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-10-04",
+        "time": "40.25",
+        "pts": "246",
+        "place": "1"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-10-04",
+        "time": "40.45",
+        "pts": "243",
+        "place": "2"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-10-04",
+        "time": "46.87",
+        "pts": "156",
+        "place": "10"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-10-04",
+        "time": "50.59",
+        "pts": "83",
+        "place": "8"
+    },
+    {
+        "name": "Zaleski Leonard",
+        "date": "2025-10-04",
+        "time": "50.96",
+        "pts": "81",
+        "place": "9"
     }
 ]

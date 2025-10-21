@@ -19,5 +19,82 @@
         "time": "2:38.07",
         "pts": "268",
         "place": "26"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-02-02",
+        "time": "2:52.94",
+        "pts": "259",
+        "place": "2"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-02-02",
+        "time": "3:09.30",
+        "pts": "197",
+        "place": "10"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-02-02",
+        "time": "3:19.91",
+        "pts": "168",
+        "place": "16"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-02-02",
+        "time": "2:33.08",
+        "pts": "273",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-02-02",
+        "time": "3:03.98",
+        "pts": "157",
+        "place": "7"
+    },
+    {
+        "name": "Nierojewski Jerzy",
+        "date": "2025-02-02",
+        "time": "3:20.41",
+        "pts": "121",
+        "place": "13"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2025-02-02",
+        "time": "3:42.87",
+        "pts": "88",
+        "place": "24"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-06-14",
+        "time": "2:49.32",
+        "pts": "",
+        "place": "4"
+    },
+    {
+        "name": "Kortalla Zofia",
+        "date": "2025-06-14",
+        "time": "2:55.48",
+        "pts": "",
+        "place": "5"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-06-14",
+        "time": "2:26.20",
+        "pts": "",
+        "place": "1"
+    },
+    {
+        "name": "Winogradow Daniel",
+        "date": "2025-06-14",
+        "time": "2:55.61",
+        "pts": "",
+        "place": "3"
     }
 ]

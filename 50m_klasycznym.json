@@ -502,5 +502,89 @@
         "time": "49.41",
         "pts": "144",
         "place": "9"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-05-10",
+        "time": "51.95",
+        "pts": "110",
+        "place": "7"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-05-10",
+        "time": "57.35",
+        "pts": "82",
+        "place": "9"
+    },
+    {
+        "name": "P\u0142oszajski Leonard",
+        "date": "2025-05-10",
+        "time": "59.83",
+        "pts": "72",
+        "place": "12"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-05-10",
+        "time": "50.87",
+        "pts": "173",
+        "place": "8"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-05-10",
+        "time": "50.99",
+        "pts": "172",
+        "place": "10"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-05-10",
+        "time": "51.44",
+        "pts": "167",
+        "place": "11"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-05-10",
+        "time": "54.62",
+        "pts": "140",
+        "place": "13"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-05-10",
+        "time": "55.36",
+        "pts": "134",
+        "place": "14"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-10-04",
+        "time": "47.61",
+        "pts": "211",
+        "place": "8"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-10-04",
+        "time": "52.37",
+        "pts": "158",
+        "place": "14"
+    },
+    {
+        "name": "Smirnova Maryna",
+        "date": "2025-10-04",
+        "time": "55.65",
+        "pts": "132",
+        "place": "19"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-10-04",
+        "time": "50.76",
+        "pts": "118",
+        "place": "6"
     }
 ]

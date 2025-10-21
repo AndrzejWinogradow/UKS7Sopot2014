@@ -82,5 +82,187 @@
         "time": "1:47.90",
         "pts": "150",
         "place": "21"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-02-02",
+        "time": "1:26.64",
+        "pts": "254",
+        "place": "1"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-02-02",
+        "time": "1:31.10",
+        "pts": "218",
+        "place": "4"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-02-02",
+        "time": "1:45.55",
+        "pts": "140",
+        "place": "23"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-02-02",
+        "time": "1:49.50",
+        "pts": "125",
+        "place": "28"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-02-02",
+        "time": "1:51.84",
+        "pts": "118",
+        "place": "31"
+    },
+    {
+        "name": "Sharma Anisa",
+        "date": "2025-02-02",
+        "time": "2:03.01",
+        "pts": "88",
+        "place": "33"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-02-02",
+        "time": "1:47.30",
+        "pts": "91",
+        "place": "10"
+    },
+    {
+        "name": "Amiros\u0142anow Miros\u0142aw",
+        "date": "2025-02-02",
+        "time": "2:32.94",
+        "pts": "31",
+        "place": "21"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-06-14",
+        "time": "1:24.56",
+        "pts": "273",
+        "place": "1"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-06-14",
+        "time": "1:27.67",
+        "pts": "245",
+        "place": "3"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-06-14",
+        "time": "1:31.08",
+        "pts": "218",
+        "place": "7"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-06-14",
+        "time": "1:34.09",
+        "pts": "198",
+        "place": "11"
+    },
+    {
+        "name": "Kubicka Zofia",
+        "date": "2025-06-14",
+        "time": "1:38.54",
+        "pts": "172",
+        "place": "14"
+    },
+    {
+        "name": "Michalak Nina",
+        "date": "2025-06-14",
+        "time": "1:38.70",
+        "pts": "171",
+        "place": "15"
+    },
+    {
+        "name": "Borek Zuzanna",
+        "date": "2025-06-14",
+        "time": "1:41.70",
+        "pts": "157",
+        "place": "18"
+    },
+    {
+        "name": "Rozmierska Alicja",
+        "date": "2025-06-14",
+        "time": "1:51.31",
+        "pts": "119",
+        "place": "25"
+    },
+    {
+        "name": "Haller J\u0119drzej",
+        "date": "2025-06-14",
+        "time": "1:44.94",
+        "pts": "97",
+        "place": "13"
+    },
+    {
+        "name": "Asman Igor",
+        "date": "2025-06-14",
+        "time": "1:49.01",
+        "pts": "87",
+        "place": "18"
+    },
+    {
+        "name": "Che\u0142stowski Leonard",
+        "date": "2025-06-14",
+        "time": "1:49.80",
+        "pts": "85",
+        "place": "19"
+    },
+    {
+        "name": "Sowa Stefan",
+        "date": "2025-06-14",
+        "time": "2:02.03",
+        "pts": "62",
+        "place": "20"
+    },
+    {
+        "name": "Flis Szymon",
+        "date": "2025-06-14",
+        "time": "2:02.81",
+        "pts": "60",
+        "place": "21"
+    },
+    {
+        "name": "Zi\u00f3\u0142kowska-Cie\u015blak Helena",
+        "date": "2025-10-18",
+        "time": "1:26.31",
+        "pts": "257",
+        "place": "1"
+    },
+    {
+        "name": "Maculewicz Laura",
+        "date": "2025-10-18",
+        "time": "1:27.35",
+        "pts": "248",
+        "place": "5"
+    },
+    {
+        "name": "Buzuk Aleksandra",
+        "date": "2025-10-18",
+        "time": "1:29.63",
+        "pts": "229",
+        "place": "10"
+    },
+    {
+        "name": "Le\u015bniewska Emilia",
+        "date": "2025-10-18",
+        "time": "1:32.17",
+        "pts": "211",
+        "place": "12"
+    },
+    {
+        "name": "Nadaj Hubert",
+        "date": "2025-10-18",
+        "time": "1:18.93",
+        "pts": "229",
+        "place": "1"
     }
 ]
